@@ -102,20 +102,24 @@ body {
     }
 
     .info {
-        grid-template-columns: 220px;
+        grid-template-columns: 218px;
     }
 }
 
 @media (max-width: 380px) {
 
+    .info {
+        grid-template-columns: 219px;
+    }
+
     .student {
-        margin-left: 15px;
+        margin-left: 12px;
     }
 
     .name {
-        font-size: 18px;
+        font-size: 15px;
     }
     .motto {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
