@@ -59,12 +59,67 @@ body {
     grid-template-columns: 280px;
 }
 
+@media (max-width: 950px) {
+    .student {
+        width: 240px;
+    }
+    .info {
+        grid-template-columns: 260px;
+    }
+    .motto {
+        font-size: 16px;
+    }
+    .title {
+        margin-top: 15%;
+    }
+    .students {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 850px) {
+    .student {
+        width: 240px;
+    }
+
+    .info {
+        grid-template-columns: 240px;
+    }
+
+    .title {
+        margin-top: 10%;
+    }
+    
+    .students {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 780px) {
+    .student {
+        width: 215px;
+    }
+    
+    .info {
+        grid-template-columns: 220px;
+    }
+}
+
+@media (max-width: 730px) {
+    .info {
+        grid-template-columns: 170px;
+    }
+    .student {
+        width: 170px;
+    }
+}
+
 @media (max-width: 580px) {
     .greetings {
         font-size: 30px;
     }
     .student {
-        width: 130px;
+        width: 120px;
     }
     .name {
         font-size: 20px;
@@ -76,6 +131,7 @@ body {
         grid-template-columns: 145px;
     }
 }
+
 
 @media (max-width: 500px) {
 
