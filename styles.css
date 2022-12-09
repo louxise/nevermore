@@ -90,9 +90,7 @@ body {
     .student {
         width: 250px;
     }
-    .bianca {
-        margin-left: 23px;
-    }
+    
     .info {
         grid-template-columns: 270px;
     }
