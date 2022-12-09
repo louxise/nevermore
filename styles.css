@@ -1,0 +1,121 @@
+
+@font-face {
+    font-family: NetflixSans;
+    src: url(Fonts/netflix-sans-font/NetflixSans-Regular.otf);
+}
+
+body {
+    background-color: #090411;
+}
+
+.title {
+    text-align: center;
+}
+
+.greetings {
+    color: #e09702;
+    font-size: 45px;
+    margin-top: 20px;
+    font-family: Sorts Mill Goudy;
+}
+
+.wednesday {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.student {
+    width: 292px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #483101;
+    border-radius: 7px;
+}
+
+.students, .mottos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.name {
+    color: white;
+    font-family: Sorts Mill Goudy;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.motto {
+    color: hsla(0,0%,100%,.8);
+    font-size: 15px;
+    font-family: NetflixSans;
+    text-align: center;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 280px;
+}
+
+@media (max-width: 500px) {
+
+    .greetings {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .wednesday {
+        margin-left: 0px;
+    }
+
+    .student {
+        width: 130px;
+        margin-left: 30px;
+        margin-top: 40px
+    }
+
+    .bianca, .wednesday, .yoko {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .students, .mottos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .motto {
+        margin-top: 0px;
+        font-size: 15px;
+        margin-left: 12px;
+    }
+
+    .name {
+        font-size: 20px;
+        text-align: left;
+        margin-top: 25%;
+        margin-bottom: 0px;
+        margin-left: 20%;
+    }
+
+    .info {
+        grid-template-columns: 220px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .student {
+        margin-left: 15px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+    .motto {
+        font-size: 13px;
+    }
+}
