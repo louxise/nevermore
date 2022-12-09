@@ -72,7 +72,7 @@ body {
 
     .student {
         width: 130px;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-top: 40px
     }
 
@@ -90,7 +90,7 @@ body {
     .motto {
         margin-top: 0px;
         font-size: 15px;
-        margin-left: 12px;
+        margin-left: 13px;
     }
 
     .name {
@@ -102,14 +102,14 @@ body {
     }
 
     .info {
-        grid-template-columns: 218px;
+        grid-template-columns: 220px;
     }
 }
 
 @media (max-width: 380px) {
 
     .info {
-        grid-template-columns: 219px;
+        grid-template-columns: 180px;
     }
 
     .student {
