@@ -59,6 +59,89 @@ body {
     grid-template-columns: 280px;
 }
 
+@media (max-width: 1580px) {
+    .name {
+        font-size: 28px;
+    }
+    .motto {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .name {
+        font-size: 23px;
+    }
+    .motto {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 980px) {
+    .title {
+        margin-top: 15%;
+    }
+    .greetings {
+        font-size: 50px;
+    }
+    .students {
+        margin-top: 25%;
+    }
+    .student {
+        width: 250px;
+    }
+    .bianca {
+        margin-left: 23px;
+    }
+    .info {
+        grid-template-columns: 270px;
+    }
+    .motto {
+        font-size: 20px;
+    }
+    .name {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 870px) {
+    .title {
+        margin-top: 15%;
+        margin-bottom: 0px;
+    }
+    .students {
+        margin-top: 15%;
+    }
+    .student {
+        width: 220px;
+    }
+    .motto {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .info {
+        grid-template-columns: 220px;
+    }
+}
+
+@media (max-width: 580px) {
+    .greetings {
+        font-size: 30px;
+    }
+    .student {
+        width: 130px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .motto {
+        font-size: 14px;
+    }
+    .info {
+        grid-template-columns: 145px;
+    }
+}
+
 @media (max-width: 500px) {
 
     .greetings {
@@ -90,7 +173,8 @@ body {
     .motto {
         margin-top: 0px;
         font-size: 15px;
-        margin-left: 13px;
+        margin-left: 15px;
+
     }
 
     .name {
@@ -107,6 +191,14 @@ body {
 }
 
 @media (max-width: 380px) {
+
+    .title {
+        margin-top: 0px;
+    }
+
+    .students {
+        margin-top: 0px;
+    }
 
     .info {
         grid-template-columns: 180px;
