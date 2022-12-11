@@ -73,7 +73,7 @@ body {
         margin-top: 15%;
     }
     .students {
-        margin-top: 20%;
+        margin-top: 0%;
     }
 }
 
@@ -91,11 +91,11 @@ body {
     }
     
     .students {
-        margin-top: 20%;
+        margin-top: 10%;
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 800px) {
     .student {
         width: 215px;
     }
@@ -114,26 +114,25 @@ body {
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 590px) {
     .greetings {
         font-size: 30px;
     }
     .student {
-        width: 120px;
+        width: 155px;
     }
     .name {
         font-size: 20px;
     }
     .motto {
-        font-size: 14px;
+        font-size: 16px;
     }
     .info {
-        grid-template-columns: 145px;
+        grid-template-columns: 150px;
     }
 }
 
-
-@media (max-width: 500px) {
+@media (max-width: 510px) {
 
     .greetings {
         font-size: 30px;
@@ -163,7 +162,7 @@ body {
 
     .motto {
         margin-top: 0px;
-        font-size: 15px;
+        font-size: 16px;
         margin-left: 15px;
 
     }
